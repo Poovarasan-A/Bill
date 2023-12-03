@@ -1,6 +1,200 @@
-nothing
-<div class="row justify-content-center align-items-center g-2">
-  <div class="col">Column</div>
-  <div class="col">Column</div>
-  <div class="col">Column</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bill Preview</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Hotel Name</h1>
+      <h2>Booking Details of</h2>
+    </div>
+
+    <hr />
+    <div class="container">
+      <div class="box1">
+        <h4>GUEST DETAILS</h4>
+        <table>
+          <tr>
+            <td><label>Guest Name </label></td>
+            <td>:<input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Phone Number </label></td>
+            <td>:<input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Alternative Number </label></td>
+            <td>:<input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Guest ID </label></td>
+            <td>:<input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Address </label></td>
+            <td>:<input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>PAX - </label></td>
+            <td class="age">
+              <label>Adult </label><input type="text" /> <label>Children</label>
+              <input type="text" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- box 1 end -->
+      <div class="box2">
+        <table>
+          <tr>
+            <td><label>Booking Source </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>GRC No </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Invoice No </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Invoice Date </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Pre Book </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+        </table>
+        <table class="check">
+          <tr>
+            <td><label>Arrival Date </label></td>
+            <td>: <input type="text" /></td>
+            <td><label>Departure Date </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Check-In Time </label></td>
+            <td>: <input type="text" /></td>
+            <td><label>Check-out Time </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+        </table>
+      </div>
+      <!-- Boox 2 end -->
+    </div>
+    <!-- room details box start-->
+    <div class="room_details">
+      <table border="1" cellspacing="0">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Room No</th>
+            <th>Room Type</th>
+            <th>FloorNo.</th>
+            <th>No.of Days Stayed</th>
+            <th>Rate</th>
+            <th>Extra Bed Count</th>
+            <th>Extra Bed Price</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- room details end -->
+    <div class="container2">
+      <div class="box3">
+        <span> </span>
+        <div class="content1">
+          <b>Reception Details</b>
+          <table>
+            <tr>
+              <td>PREBOOKED BY</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>CHECKED IN BY</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>CHECKED OUT BY</td>
+              <td><input type="text" /></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="box4">
+        <table>
+          <tr>
+            <td><b>Total </b></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Discount Applied </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>CGST </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>SGST </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Total Room GST </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Amount after TAX </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Dish Bill </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Dish GST </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Maintainance Log </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label class="total">Total Paid Amount </label></td>
+            <td>: <input type="text" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
